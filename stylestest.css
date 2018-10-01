@@ -149,7 +149,9 @@ section {
 }
 .imagesmilieu img {
 	width: 24%;
+	padding: 3.5px 3.5px;
 }
+/* section 3*/
 
 #section3 {
 	background-color: #515f67;
