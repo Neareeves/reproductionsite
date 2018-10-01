@@ -29,3 +29,29 @@
     color:#4BCAFF;
 } 
 
+#conteneur
+{
+    display: flex;
+    flex-wrap:nowrap ;
+    flex width:auto;
+    
+  
+    justify-content: space-around;
+
+    color: white;
+    padding: 20%
+    margin: 0%;
+    font: 15px NaN;
+ 
+    height: 200px
+  
+
+}
+.conteneur{
+    display: flex;
+    
+    font: color rgb(253, 254, 255);
+    background-color:#4BCAFF;*
+    margin: 0%;
+    padding: 0%;
+}
