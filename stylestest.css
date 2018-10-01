@@ -234,16 +234,19 @@ section {
 	margin-bottom: 25px;
 	letter-spacing: 2px;
 }
-.logoreseaux  {
+/*.logosreseaux img{
+	display: inline-block;
 	float: left;
+}*/
+
+.logosreseaux img {
 	border-style: solid;
+	padding: 10px 10px;
+	margin-right: 10px;
+	border-width: 0.5px;
 }
 .blocsection5 p{
 	width: 45%;
 	height: 20%;
 }
-.photoreso {
-	border-style: solid;
-	
-	
-}
+
