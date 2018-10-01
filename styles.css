@@ -6,7 +6,7 @@
 
 * {
 	font-family: 'Roboto', sans-serif;
-	margin: 0;
+	margin: 5px;
 	padding: 0;
 }
 
@@ -19,8 +19,36 @@
 }
 
 /* navigation - header */
+#bloctete {
+	width: 100%;
+	background-color: hsla(207, 11%, 31%, 0.7);
+	height: 150px;
+	color: #FFF;
+}
+ 
  .head {
  	 float: left;
- 	 border-style: solid;
+ 	 border-style: none;
  	 padding: 5px 10px;
+ 	 list-style-type: none;
+ 	 display: inline-block;
+ 	 margin-right: 5px;
+ 	 margin-left: 5px;
  }
+ .head:hover  {
+ 	border-style: solid;
+ 	color:#4BCAFF;
+ 	border-color: color:#4BCAFF;
+ }
+.header {
+	float: right;
+	left: 150px;
+	
+}
+.titreh1 {
+	border-style: none;
+	width: 51px;
+	float: left;
+	right: 150px;
+
+}
