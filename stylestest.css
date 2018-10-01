@@ -6,13 +6,13 @@
 
 * {
 	font-family: 'Roboto', sans-serif;
-	margin: 5px;
+	margin: 0px;
 	padding: 0;
 }
 
 section{
 	width: 70%;
-	
+
 }
 .maintitle, h3 {
 	font-family: 'CaviarDreams';
@@ -145,4 +145,7 @@ section{
 	flex-wrap: wrap;
 	justify-content: center;*/
 	
+}
+.imagesmilieu img {
+	width: 23%;
 }
