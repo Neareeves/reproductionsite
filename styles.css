@@ -6,11 +6,21 @@
 
 * {
 	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
 }
 
 .maintitle, h3 {
 	font-family: 'CaviarDreams';
 }
-.video::after{
-	content: "hey";
+
+.clear {
+	clear: both;
 }
+
+/* navigation - header */
+ .head {
+ 	 float: left;
+ 	 border-style: solid;
+ 	 padding: 5px 10px;
+ }
