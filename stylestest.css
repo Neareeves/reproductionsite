@@ -1,7 +1,8 @@
 /*typo*/
 @font-face {
 	font-family: 'CaviarDreams';
-	src: url('CaviarDreams.ttf')
+	src: url('CaviarDreams.ttf');
+	
 }
 
 * {
@@ -91,7 +92,7 @@ section {
 }
 #section2 {
 	background-color: #FFF;
-	height: 700px;
+	height: 720px;
 	margin-left: auto;
 	margin-right: auto;
 	width: 70%;
@@ -123,6 +124,7 @@ section {
 #titreportfolio {
 	display: inline-block;
 	float: left;
+	font-family: 'CaviarDreams';
 }
 #navporfolio {
 	display: inline-block;
@@ -155,8 +157,10 @@ section {
 
 #section3back {
 	background-color: #515f67;
-	height: 400px;
+	height: 310px;
 	width: 100%;
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
 .section3text {
 	width: 70%;
@@ -164,14 +168,32 @@ section {
 	margin-right: auto;
 }
 
+.justdefautbloctext {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 40%;
+}
 .justdefault {
 	display: flex;
 	color: #FFF;
 	flex-direction: row;
+	justify-content: space-between;
 }
-
+.VISIT {
+	color: #353f46;
+	border-style: solid;
+	border-color: #353f46;
+	padding: 10px 30px;
+	width: 50px;
+	font-size: 12px;
+}
 .titrejustdef {
 	text-align: left;
+}
+
+.element22 {
+
 }
 /*.soulignetitre {
 	text-decoration: underline; 
