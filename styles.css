@@ -1,4 +1,16 @@
 /*typo*/
+@font-face {
+	font-family: 'CaviarDreams';
+	src: url('CaviarDreams.ttf')
+}
+
 * {
-	font-family: 'helvetica neue';
+	font-family: 'Roboto', sans-serif;
+}
+
+.maintitle, h3 {
+	font-family: 'CaviarDreams';
+}
+.video::after{
+	content: "hey";
 }
