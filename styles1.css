@@ -14,11 +14,13 @@
 .services{
     
     height:30%;
-    padding: 33.3px;
-    color:#4BCAFF;
+    padding-top: 50px;
+    color: white;
+}
 
-
-
+.element{
+	padding-top: 20px;
+	padding-bottom: 50px;
 }
 
 .blocinstant
@@ -46,6 +48,11 @@
     height: 300px
     font: color rgb(253, 254, 255);
 
+
+}
+#section1 {
+	margin-left: auto;
+	margin-right: auto;
 }
 .conteneur{
     
@@ -53,7 +60,16 @@
     flex-wrap:nowrap ;
     flex width:auto;
 
+    /*background-color:#4BCAFF;*/
     
-    background-color:#4BCAFF;*
     
+}
+
+.conteneur h3 {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.titreservices{
+	background-color:#4BCAFF;
+	width: 100%;
 }
