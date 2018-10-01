@@ -10,6 +10,10 @@
 	padding: 0;
 }
 
+section{
+	width: 70%;
+	
+}
 .maintitle, h3 {
 	font-family: 'CaviarDreams';
 }
@@ -88,6 +92,9 @@
 #section2 {
 	background-color: #FFF;
 	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
 }
 
 .menuportfolio {
@@ -104,6 +111,10 @@
 	color:#4BCAFF;
 	border-color: #4BCAFF;
 }
+
+.conteneurimagesmilieu {
+	;
+}
 .menuportfolio::after {
 	content: "";
 	display: block;
@@ -116,6 +127,7 @@
 #navporfolio {
 	display: inline-block;
 	float: right;
+	
 }
 .titleporto {
 	display: flex;
@@ -125,4 +137,12 @@
 	flex-wrap: nowrap;
 	justify-content: space-between;
 	color: #69747b;
+}
+.conteneurimagesmilieu {
+	display: flex;
+	
+	/*flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;*/
+	
 }
