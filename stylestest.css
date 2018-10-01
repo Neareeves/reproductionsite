@@ -17,6 +17,7 @@ section {
 }
 .maintitle, h3 {
 	font-family: 'CaviarDreams';
+	letter-spacing: 2px;
 }
 
 .clear {
@@ -83,6 +84,7 @@ section {
 }
 .maintitle:nth-child(1){
 	margin-top: 150px;
+	margin-bottom: 5px;
 }
 
 .lettree {
@@ -191,8 +193,8 @@ section {
 .titrejustdef {
 	text-align: left;
 }
-.justtest {
-	font-size: 9px;
+.justtext {
+	font-size: 12px;
 }
 .element22 {
 
@@ -200,3 +202,48 @@ section {
 /*.soulignetitre {
 	text-decoration: underline; 
 }*/
+
+
+#section5 {
+	background-image: url('images/join_bg.jpg');
+	background-size: cover;
+	width: 100%;
+	height: 450px;
+	z-index: 1;
+	color: #FFF;
+}
+#section5sec {
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 5;
+}
+
+.blocsection5 {
+	width: 100%;
+	height: 200px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 12px;
+}
+.reseaux h3 {
+	text-align: left;
+	padding-top: 70px;
+	margin-bottom: 25px;
+	letter-spacing: 2px;
+}
+.logoreseaux  {
+	float: left;
+	border-style: solid;
+}
+.blocsection5 p{
+	width: 45%;
+	height: 20%;
+}
+.photoreso {
+	border-style: solid;
+	
+	
+}
