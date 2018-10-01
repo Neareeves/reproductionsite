@@ -153,21 +153,26 @@ section {
 }
 /* section 3*/
 
-#section3 {
+#section3back {
 	background-color: #515f67;
 	height: 400px;
+	width: 100%;
+}
+.section3text {
+	width: 70%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .justdefault {
 	display: flex;
-	text-align: center;
-	margin-left: 200px;
 	color: #FFF;
+	flex-direction: row;
 }
 
-
+.titrejustdef {
+	text-align: left;
+}
 /*.soulignetitre {
 	text-decoration: underline; 
 }*/
