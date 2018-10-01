@@ -31,7 +31,7 @@
     color:#4BCAFF;
 } 
 
-#conteneur
+#conteneur 
 {
     display: flex;
     flex-wrap:nowrap ;
@@ -71,5 +71,10 @@
 }
 .titreservices{
 	background-color:#4BCAFF;
-	width: 100%;
+    width: 100%;
+    
+}
+#section4{
+    background-color:#4BCAFF;
+    width: 100%;
 }
