@@ -7,6 +7,25 @@
   color:#475158;
   height: 20%;
   width: 0%;
+  margin: 30%;
+  display: inline-block;
 }
     
-   
+.services{
+    
+    height:30%;
+    padding: 33.3px;
+    color:#4BCAFF;
+
+
+
+}
+
+.blocinstant
+{
+    float: right;
+    height:30%;
+    padding: 33.3px;
+    color:#4BCAFF;
+} 
+
