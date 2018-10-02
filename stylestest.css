@@ -302,6 +302,7 @@ section {
 	margin-left: 0;
 	padding-left: 0;
 	padding-bottom: 40px;
+	margin-top: 50px;
 
 }
 .flexform {
@@ -347,12 +348,12 @@ textarea {
 }
 .submite {
 	background-color: #4bcaff;
-	display: inline-block;
+	padding: 20px 160px;
 	border-style: none;
 	margin-top: 40px;
-	
+	font-size: 1em;
 	color: #FFF;
-	text-align: center;
+	cursor: alias;
 }
 .flexform input[type="submit"] {
 	color: red;
