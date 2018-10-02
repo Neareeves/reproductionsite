@@ -132,7 +132,7 @@ table.TableauImage {
     table-layout: fixed;
     width: 100%;
     border-collapse:separate;
-    border-spacing: 1em;
+  
 }
 
 tr.spaceUnder>td {
@@ -148,12 +148,11 @@ tr.spaceUnder>td {
 table.Tableautwitter {
     table-layout: fixed;
     width:fit-content;
-    border-collapse:separate;
-    border-style: solid;
+  
+    
     border-color:black;
     margin :auto;
-    padding-left: 17%;
-    padding-right: 17%;
+   
 }
 
 td.AligneGauche {
@@ -195,7 +194,7 @@ h3{
     font-size: 20px;
  
     text-align:left;
-    margin :auto;
+    margin :0 auto;
     width: fit-content;
 
 }
@@ -208,16 +207,12 @@ h3{
 }
 
 #footer{
-     {
-        width: 100%;
-        background-color: hsla(207, 11%, 31%, 0.7);
-        height: 150px;
-        color: :#475158;
-        float: left;
-        border-style: none;
-        padding: 5px 10px;
-        list-style-type: none;
-        display: inline-block;
-        margin-right: 5px;
-        margin-left: 5px;
+     
+        text-align:center;
+        margin :auto;
+        width: fit-content;
+        height: 100px;
+       padding: 5px 10px;
+       display: inline-block;
+     
 }
