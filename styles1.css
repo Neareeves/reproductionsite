@@ -205,3 +205,18 @@ h3{
     text-align: left;
 
 }
+
+#footer{
+     {
+        width: 100%;
+        background-color: hsla(207, 11%, 31%, 0.7);
+        height: 150px;
+        color: :#475158;
+        float: left;
+        border-style: none;
+        padding: 5px 10px;
+        list-style-type: none;
+        display: inline-block;
+        margin-right: 5px;
+        margin-left: 5px;
+}
