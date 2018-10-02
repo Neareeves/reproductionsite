@@ -107,6 +107,7 @@ section {
 	padding: 5px 10px;
 	margin-right: 10px;
 	margin-left: 10px;
+
 	float: left;
 }
 .menuportfolio:hover {
@@ -117,7 +118,11 @@ section {
 }
 
 .conteneurimagesmilieu {
-	display: flex;
+	/*display: flex;*/
+	margin-left: 0;
+	padding-left: 0;
+	margin-right: 0;
+	padding-right: 0;
 }
 .menuportfolio::after {
 	content: "";
@@ -145,26 +150,24 @@ section {
 	color: #69747b;
 	margin-top: 40px;
 }
-.conteneurimagesmilieu {
-	margin-left: 0;
-	}
+
 	
 	/*flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;*/
 	
-.imagesmilieu {
+/*.imagesmilieu {
 	display: flex;
 	height: 400px;
 	width: 100%;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-between;
-}
-.imagesmilieu img {
+}*/
+/*.imagesmilieu img {
 	width: 24%;
-	padding: 3.5px 3.5px;
-}
+	padding: 2.5px 3.5px;
+}*/
 /* section 3*/
 
 #section3back {
