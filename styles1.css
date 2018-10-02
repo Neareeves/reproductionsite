@@ -43,10 +43,10 @@
     font: color rgb(253, 254, 255);
 }
 
-.TwitterId
+.twitterid
 {
     display: flex;
-    flex-wrap:nowrap ;
+    flex-wrap:nowrap;
 
     justify-content: space-around;
     color: white;
@@ -116,6 +116,7 @@ footer {
 #section3 {
     background-color:#4BCAFF;
     width: 100%;
+<<<<<<< HEAD
     height:20%;
     font-size: auto;
 }
@@ -141,7 +142,7 @@ tr.spaceUnder>td {
     height: auto;    
   }​
 
-table.TableauTwitter {
+table.Tableautwitter {
     table-layout: fixed;
     width: 100%;
     border-collapse:separate;

@@ -12,11 +12,21 @@
 }
 
 section {
-	width: 70%;
+	width: 65%;
 
 }
+#section7 {
+	margin-left: auto;
+	margin-right: auto;
+}
+.contact {
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .maintitle, h3 {
 	font-family: 'CaviarDreams';
+	letter-spacing: 2px;
 }
 
 .clear {
@@ -83,6 +93,7 @@ section {
 }
 .maintitle:nth-child(1){
 	margin-top: 150px;
+	margin-bottom: 5px;
 }
 
 .lettree {
@@ -92,10 +103,10 @@ section {
 }
 #section2 {
 	background-color: #FFF;
-	height: 720px;
+	height: 42vw;
 	margin-left: auto;
 	margin-right: auto;
-	width: 70%;
+	width: 65%;
 }
 
 .menuportfolio {
@@ -114,7 +125,7 @@ section {
 }
 
 .conteneurimagesmilieu {
-	;
+	display: flex;
 }
 .menuportfolio::after {
 	content: "";
@@ -142,12 +153,19 @@ section {
 	margin-top: 40px;
 }
 .conteneurimagesmilieu {
-	display: flex;
+	}
 	
 	/*flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;*/
 	
+.imagesmilieu {
+	display: flex;
+	height: 400px;
+	width: 100%;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 .imagesmilieu img {
 	width: 24%;
@@ -163,7 +181,7 @@ section {
 	padding-bottom: 60px;
 }
 .section3text {
-	width: 70%;
+	width: 65%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -172,7 +190,7 @@ section {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	width: 40%;
+	width: 45%;
 }
 .justdefault {
 	display: flex;
@@ -189,12 +207,71 @@ section {
 	font-size: 12px;
 }
 .titrejustdef {
-	text-align: left;
+	text-align: justify;
 }
-
+.justtext {
+	font-size: 12px;
+	line-height: 19px;
+}
+.element22 .video{
+ text-align: center;
+ display: inline-block;
+ width: 100%;
+}
 .element22 {
-
+	width: 46%;
 }
-/*.soulignetitre {
-	text-decoration: underline; 
+.soulignetitre {
+	border-bottom: solid;
+	font-weight: 100;
+	paddinbo
+}
+
+
+#section5 {
+	background-image: url('images/join_bg.jpg');
+	background-size: cover;
+	width: 100%;
+	height: 450px;
+	z-index: 1;
+	color: #FFF;
+}
+#section5sec {
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 5;
+}
+
+.blocsection5 {
+	width: 100%;
+	height: 200px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 12px;
+}
+.reseaux h3 {
+	text-align: left;
+	padding-top: 70px;
+	margin-bottom: 25px;
+	letter-spacing: 2px;
+}
+/*.logosreseaux img{
+	display: inline-block;
+	float: left;
 }*/
+
+.logosreseaux img {
+	border-style: solid;
+	padding: 10px 10px;
+	margin-right: 10px;
+	border-width: 0.5px;
+	display: flex;
+}
+.blocsection5 p{
+	width: 45%;
+	height: 20%;
+}
+
