@@ -2,7 +2,6 @@
 @font-face {
 	font-family: 'CaviarDreams';
 	src: url('CaviarDreams.ttf');
-	
 }
 
 * {
@@ -314,13 +313,13 @@ section {
 .message {
 	padding-top: 40px;
 }
-.fullname, .email, .submit, .message {
+.fullname, .email {
 	width: 50%;
-	
-
 }
+
 .flexform > p {
 	width: 50%;
+	font-size: 13px;
 }
 input {
 	background: transparent;
@@ -334,18 +333,29 @@ textarea {
 	border-color: #FFF; 
 	border-style: solid;
 }
-.submit {
+.submite {
 	background-color: #4bcaff;
+	display: inline-block;
 	border-style: none;
 	margin-top: 40px;
+	
+	color: #FFF;
+	text-align: center;
 }
-.submit[type=submit] {
+.flexform input[type="submit"] {
+	color: red;
+
+}
+
+/*.submit[type=submit] {
 	
 	display: inline-block;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 }
+*/
+
 
 .adresse {
 	font-size: 12px;
