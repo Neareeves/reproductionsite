@@ -45,34 +45,47 @@
     font: color rgb(253, 254, 255);
 }
 
-.twitterid
-{
-    display: flex;
-    flex-wrap:nowrap;
-
-    justify-content: space-around;
+.twitterid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     color: white;
-    padding: 50px;
-    margin: 3px;
-    font: 15px NaN;
-
+    /*padding: 50px;*/
+	padding-bottom: 40px;
+	padding-top: 50px;
+    
     /* font: color rgb(253, 254, 255);  */
-    table-layout: fixed;
-    width: 100%;
-    border-collapse:separate;
-    border-spacing: 1em;
+   
+    width: 65%;
+   
 } 
-
+.twitterid p {
+	font-size: 20px ;
+	letter-spacing: 2px;
+	font-weight: 100;
+}
+.twitterid h3 {
+	float: left;
+	display: inline-block;
+	padding-bottom: 30px;
+}
+.twitterid img {
+	float: right;
+	display: inline-block;
+}
+strong {
+	font-weight: 800;
+}
 #section1 {
 	margin-left: auto;
 	margin-right: auto;
 }
 
 
-#section4 {
+/*#section4 {
 	margin-left: auto;
 	margin-right: auto;
-}
+}*/
 
 #section5 {
 	margin-left: auto;
@@ -171,8 +184,8 @@ td.AligneDroite {
     height: 160%;
     font-size: 12px;
     background: rgb(252, 249, 249);
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
     padding-left: 17%;
     padding-right: 17%;
     text-align: right;
@@ -187,7 +200,7 @@ td.AligneDroite {
     padding-top:  0%;
     padding-bottom: 2%;
   letter-spacing: 3px;
-    line-height: 20px;
+    line-height: 28px;
 
 }
 h3{
@@ -209,7 +222,7 @@ h3{
 #footer{
      
         text-align:center;
-        margin :auto;
+        margin: auto;
         width: fit-content;
         height: 100px;
        padding: 5px 10px;

@@ -46,7 +46,14 @@ section {
  	 /*display: inline-block;*/
  	 margin-right: 5px;
  	 margin-left: 5px;
+ 	 text-decoration-style: none;
+ 	 color: #FFF;
  }
+.head a:visited {
+	text-decoration: none !important; 
+	color: #FFF;
+
+}
  .head:hover  {
  	border-style: solid;
  	color:#4BCAFF;
@@ -294,7 +301,7 @@ section {
 	background-size: cover;
 	background-position: center;
 	width: 100%;
-	height: 40vw;
+	height: 42vw;
 }
 #contact > h3 {
 	display: inline-block;
@@ -357,7 +364,6 @@ textarea {
 }
 .flexform input[type="submit"] {
 	color: red;
-
 }
 
 /*.submit[type=submit] {
@@ -374,3 +380,32 @@ textarea {
 	font-size: 12px;
 	line-height: 19px;
 }
+
+.foot {
+ 	 float: left;
+ 	 border-style: none;
+ 	 padding: 5px 10px;
+ 	 list-style-type: none;
+ 	 /*display: inline-block;*/
+ 	 margin-right: 5px;
+ 	 margin-left: 5px;
+ 	 text-decoration-style: none;
+ 	 color: #4b5860;
+ 	 text-align: center;
+ }
+ #footer {
+ 	background-color: #353f47;
+ 	width: 100%;
+ 	height: 15vw;
+ }
+
+ .footer {
+ 	width: 65%;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	padding-top: 40px;
+ }
+ .footer div{
+ 	float: right;
+
+ }
