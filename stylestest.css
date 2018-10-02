@@ -12,7 +12,7 @@
 }
 
 section {
-	width: 70%;
+	width: 65%;
 
 }
 .maintitle, h3 {
@@ -94,10 +94,10 @@ section {
 }
 #section2 {
 	background-color: #FFF;
-	height: 720px;
+	height: 42vw;
 	margin-left: auto;
 	margin-right: auto;
-	width: 70%;
+	width: 65%;
 }
 
 .menuportfolio {
@@ -116,7 +116,7 @@ section {
 }
 
 .conteneurimagesmilieu {
-	;
+	display: flex;
 }
 .menuportfolio::after {
 	content: "";
@@ -144,12 +144,19 @@ section {
 	margin-top: 40px;
 }
 .conteneurimagesmilieu {
-	display: flex;
+	}
 	
 	/*flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;*/
 	
+.imagesmilieu {
+	display: flex;
+	height: 400px;
+	width: 100%;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 .imagesmilieu img {
 	width: 24%;
@@ -165,7 +172,7 @@ section {
 	padding-bottom: 60px;
 }
 .section3text {
-	width: 70%;
+	width: 65%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -174,7 +181,7 @@ section {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	width: 40%;
+	width: 45%;
 }
 .justdefault {
 	display: flex;
@@ -191,13 +198,19 @@ section {
 	font-size: 12px;
 }
 .titrejustdef {
-	text-align: left;
+	text-align: justify;
 }
 .justtext {
 	font-size: 12px;
+	line-height: 19px;
+}
+.element22 .video{
+ text-align: center;
+ display: inline-block;
+ width: 100%;
 }
 .element22 {
-
+	width: 46%;
 }
 /*.soulignetitre {
 	text-decoration: underline; 
@@ -244,6 +257,7 @@ section {
 	padding: 10px 10px;
 	margin-right: 10px;
 	border-width: 0.5px;
+	display: flex;
 }
 .blocsection5 p{
 	width: 45%;
