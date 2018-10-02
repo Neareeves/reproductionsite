@@ -15,14 +15,6 @@ section {
 	width: 65%;
 
 }
-#section7 {
-	margin-left: auto;
-	margin-right: auto;
-}
-.contact {
-	margin-left: auto;
-	margin-right: auto;
-}
 
 .maintitle, h3 {
 	font-family: 'CaviarDreams';
@@ -288,4 +280,74 @@ section {
 .contact {
 	background-image: url('images/footer_bg.jpg');
 	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 40vw;
+}
+#contact > h3 {
+	display: inline-block;
+	float: left;
+	margin-left: 0;
+	padding-left: 0;
+	padding-bottom: 40px;
+
+}
+.flexform {
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-around;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+#contact {
+	margin-left: auto;
+	margin-right: auto;
+	width: 65%;
+	color: #FFF;
+}
+.message {
+	padding-top: 40px;
+}
+.fullname, .email, .submit, .message {
+	width: 50%;
+	
+
+}
+.flexform > p {
+	width: 50%;
+}
+input {
+	background: transparent;
+	border-color: #FFF; 
+	border-style: solid;
+	padding-right: 50%;
+	padding-bottom: 30px;
+}
+textarea {
+	background: transparent;
+	border-color: #FFF; 
+	border-style: solid;
+}
+.submit {
+	background-color: #4bcaff;
+	border-style: none;
+	margin-top: 40px;
+}
+.submit[type=submit] {
+	
+	display: inline-block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.adresse {
+	font-size: 12px;
+	line-height: 19px;
 }
