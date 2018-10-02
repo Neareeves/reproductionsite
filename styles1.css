@@ -121,10 +121,10 @@ footer {
     font-size: auto;
 }
 
-.soulignetitre {
+/*.soulignetitre {
     align-self: right;
     text-decoration: underline;
-}
+}*/
 
 table.TableauImage {
     table-layout: fixed;
