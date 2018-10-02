@@ -15,6 +15,15 @@ section {
 	width: 65%;
 
 }
+#section7 {
+	margin-left: auto;
+	margin-right: auto;
+}
+.contact {
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .maintitle, h3 {
 	font-family: 'CaviarDreams';
 	letter-spacing: 2px;
@@ -212,9 +221,11 @@ section {
 .element22 {
 	width: 46%;
 }
-/*.soulignetitre {
-	text-decoration: underline; 
-}*/
+.soulignetitre {
+	border-bottom: solid;
+	font-weight: 100;
+	paddinbo
+}
 
 
 #section5 {
