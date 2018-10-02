@@ -140,16 +140,19 @@ tr.spaceUnder>td {
 
 .conteneurimagesmilieu img {
     width: 90%;
-    height: auto;    
+    height: auto;  
+      
   }​
 
 table.Tableautwitter {
     table-layout: fixed;
-    width: 100%;
+    width:fit-content;
     border-collapse:separate;
     border-style: solid;
     border-color:black;
-    margin-top: 0;
+    margin :auto;
+    padding-left: 17%;
+    padding-right: 17%;
 }
 
 td.AligneGauche {
@@ -162,31 +165,43 @@ td.AligneDroite {
 
 #section7{
    
-    width: 100%;
+   
+    width: fit-content;
+    margin:0%;
     height: 160%;
     font-size: 12px;
     background: rgb(252, 249, 249);
-    padding: 4%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 17%;
+    padding-right: 17%;
+    text-align: right;
 
 }
-#section7>p
 
+ 
+ .testtimonials > p
 {
     font-size: 16px;
     text-align:left;
+    padding-top:  0%;
+    padding-bottom: 2%;
+  
+    
 
 }
 h3{
     font-size: 20px;
-    padding: 3%;
+ 
     text-align:left;
-}
-p{
-    font-size: 16px;
-    text-align:left;
+    margin :auto;
+    width: fit-content;
 
 }
-.signature{
-    font-display: #4BCAFF;
+.signature
+{
+    color: #4BCAFF;
+    font-size: 20px;
+    text-align: left;
 
 }
