@@ -114,6 +114,7 @@ section {
 	padding: 5px 10px;
 	margin-right: 10px;
 	margin-left: 10px;
+	font-size: 11px;
 
 	float: left;
 }
@@ -408,4 +409,8 @@ textarea {
  .footer div{
  	float: right;
 
+ }
+
+ #signons {
+ 	color: #515f67;
  }
